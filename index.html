@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EcoBiz AI – Business Idea Evaluator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>EcoBiz AI</h1>
+            <p>Enter any business idea and let AI evaluate its environmental impact and score it.</p>
+            <a href="#app" class="btn">Try it Now</a>
+        </div>
+    </section>
+
+    <!-- Chat Section -->
+    <section id="app" class="app-container">
+        <h2>Business Idea Evaluator</h2>
+        <div id="chat-box" class="chat-box"></div>
+
+        <div class="input-area">
+            <input type="text" id="user-input" placeholder="Enter your business idea..." />
+            <button onclick="processIdea()">Submit</button>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
